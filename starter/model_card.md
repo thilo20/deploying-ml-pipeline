@@ -6,8 +6,8 @@ This model predicts whether a person earns more than $50K per year based on cens
 It uses a Random Forest Classifier implemented with scikit-learn.
 The model was trained as part of a machine learning deployment pipeline project.
 
-Training date: 14.11.2025
-Model version: 1.0
+    Training date: 14.11.2025
+    Model version: 1.0
 
 ## Intended Use
 
@@ -23,8 +23,8 @@ The dataset contains 32,000 records with 14 features including age, education, o
 
 Dataset origin: https://archive.ics.uci.edu/dataset/20/census+income
 
-The data was cleaned to remove whitespace.
-A train-test split of 80:20 was used with random_state=44 for reproducibility.
+- The data was cleaned to remove whitespace.
+- A train-test split of 80:20 was used with random_state=44 for reproducibility.
 
 Categorical features were one-hot encoded and the target variable (salary >50K or <=50K) was binary encoded.
 
