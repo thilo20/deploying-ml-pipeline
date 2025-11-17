@@ -72,3 +72,5 @@ Final test of the live API:
     Calling the live API on Heroku..
     statuscode: 200
     {'prediction': '>50K'}
+
+Please see 'starter/screenshots' for visual documentation.
